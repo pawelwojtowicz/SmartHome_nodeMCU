@@ -1,3 +1,16 @@
+--- Library that handles the communication with the RFID-RC522 module
+--- It registers the API and the data providers in the backen system through the Device Manager API
+
+--- Connecting the module:
+--- NODE MCU Module --------------------------- RFID-RC522
+--- 	D3 --------------------------------------- RST
+---		D5 --------------------------------------- SCK
+---		D6 --------------------------------------- MISO
+---		D7 --------------------------------------- MOSI
+---		D8 --------------------------------------- SDA
+---	   3.3V -------------------------------------- 3.3V
+---	   GND  -------------------------------------- GND
+
 local pin_ss = 8 
 local pin_rst = 3 
 local mode_reset = 0x0F
