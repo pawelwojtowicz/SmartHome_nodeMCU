@@ -6,7 +6,7 @@ local outgoingTrafficTopicPrefix = ""
 local lastWillTestamentPayload = "{ \"status\": \"offline\", \"uptime\": 0 }"
 local callbacks = {}
 
-mqttBrokerIP = "192.168.1.102"
+mqttBrokerIP = "192.168.1.106"
 m=mqtt.Client()
 connectedClient = nil
 

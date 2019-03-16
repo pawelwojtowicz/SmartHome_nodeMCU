@@ -64,7 +64,7 @@ local function reportDeviceStatus()
 	status["uptime"] = tmr.time()
 	
 	if (commLink ~= nil) then
-		commLink.sendMQTTMessage( statusModus , status, 2 )
+	--	commLink.sendMQTTMessage( statusModus , status, 2 )
 	end
 	
 end
